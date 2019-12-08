@@ -3,6 +3,7 @@ import HookCounter from "./HookContainer/counter";
 import CounterTwo from "./HookContainer/CounterTwo";
 import CounterThree from "./HookContainer/CounterThree";
 import CounterFour from './HookContainer/CounterFour';
+import CounterWithUseEffect from './HookContainer/CounterWithUseEffect';
 
 import logo from "./logo.svg";
 import "./App.css";
@@ -13,7 +14,8 @@ function App() {
       {/* <HookCounter /> */}
       {/* <CounterTwo /> */}
       {/* <CounterThree /> */}
-      <CounterFour />
+      {/* <CounterFour /> */}
+      <CounterWithUseEffect />
     </div>
   );
 }
