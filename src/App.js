@@ -4,6 +4,7 @@ import CounterTwo from "./HookContainer/CounterTwo";
 import CounterThree from "./HookContainer/CounterThree";
 import CounterFour from './HookContainer/CounterFour';
 import CounterWithUseEffect from './HookContainer/CounterWithUseEffect';
+import MousePosition from './HookContainer/MousePosition';
 
 import logo from "./logo.svg";
 import "./App.css";
@@ -15,7 +16,8 @@ function App() {
       {/* <CounterTwo /> */}
       {/* <CounterThree /> */}
       {/* <CounterFour /> */}
-      <CounterWithUseEffect />
+      {/* <CounterWithUseEffect /> */}
+      <MousePosition />
     </div>
   );
 }
