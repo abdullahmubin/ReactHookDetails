@@ -11,7 +11,6 @@ function MousePosition(){
 
     }
 
-    //NOTE: useEffect with [] used as a componentdidmount.it initialize event listener. 
     useEffect(() => {
         console.log('useEffect called');
         window.addEventListener('mousemove', logMousePosition);

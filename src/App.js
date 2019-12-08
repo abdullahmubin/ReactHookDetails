@@ -5,7 +5,7 @@ import CounterThree from "./HookContainer/CounterThree";
 import CounterFour from './HookContainer/CounterFour';
 import CounterWithUseEffect from './HookContainer/CounterWithUseEffect';
 import MousePosition from './HookContainer/MousePosition';
-
+import IntervalCounter from './HookContainer/IntervalCounter';
 import logo from "./logo.svg";
 import "./App.css";
 
@@ -17,7 +17,8 @@ function App() {
       {/* <CounterThree /> */}
       {/* <CounterFour /> */}
       {/* <CounterWithUseEffect /> */}
-      <MousePosition />
+      {/* <MousePosition /> */}
+      <IntervalCounter />
     </div>
   );
 }
