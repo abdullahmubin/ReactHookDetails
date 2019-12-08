@@ -7,6 +7,7 @@ import CounterWithUseEffect from './HookContainer/CounterWithUseEffect';
 import MousePosition from './HookContainer/MousePosition';
 import IntervalCounter from './HookContainer/IntervalCounter';
 import DataFetching from './HookContainer/DataFetching';
+import DataFetchById from './HookContainer/DataFetchById';
 
 import logo from "./logo.svg";
 import "./App.css";
@@ -22,7 +23,8 @@ function App() {
       {/* <MousePosition /> */}
       {/* <IntervalCounter /> */}
 
-      <DataFetching />
+      {/* <DataFetching /> */}
+      <DataFetchById />
     </div>
   );
 }
