@@ -8,7 +8,7 @@ import MousePosition from './HookContainer/MousePosition';
 import IntervalCounter from './HookContainer/IntervalCounter';
 import DataFetching from './HookContainer/DataFetching';
 import DataFetchById from './HookContainer/DataFetchById';
-
+import ComponentC from './HookContainer/ComponentC';
 import logo from "./logo.svg";
 import "./App.css";
 
@@ -24,7 +24,8 @@ function App() {
       {/* <IntervalCounter /> */}
 
       {/* <DataFetching /> */}
-      <DataFetchById />
+      {/* <DataFetchById /> */}
+      <ComponentC />
     </div>
   );
 }
