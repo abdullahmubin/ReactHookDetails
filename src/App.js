@@ -12,6 +12,10 @@ import ComponentC from './HookContainer/ComponentC';
 import logo from "./logo.svg";
 import "./App.css";
 
+export const UserContext = React.createContext();
+export const ChannelContext = React.createContext();
+export const ObjectTestContext = React.createContext();
+
 function App() {
   return (
     <div className="App">
@@ -25,7 +29,14 @@ function App() {
 
       {/* <DataFetching /> */}
       {/* <DataFetchById /> */}
-      <ComponentC />
+      <UserContext.Provider value={'Abdullah al Mubin'}>
+        <ChannelContext.Provider value={'Channel name'}>
+          <ObjectTestContext.Provider value={'testing..'}>
+            <ComponentC />
+          </ObjectTestContext.Provider>
+        </ChannelContext.Provider>
+      </UserContext.Provider>
+      
     </div>
   );
 }

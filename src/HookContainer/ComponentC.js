@@ -1,7 +1,9 @@
-import React from 'react';
+import React, {useContext} from 'react';
 import ComponentE from './ComponentE';
 
+
 function ComponentC() {
+
     return (
         <div>
             <ComponentE />
