@@ -10,6 +10,7 @@ import DataFetching from './HookContainer/DataFetching';
 import DataFetchById from './HookContainer/DataFetchById';
 import ComponentC from './HookContainer/ComponentC';
 import ReducerCounterOne from './HookContainer/ReducerCounterOne';
+import ReducerCounterTwo from './HookContainer/ReducerCounterTwo';
 import logo from "./logo.svg";
 import "./App.css";
 
@@ -37,7 +38,8 @@ function App() {
           </ObjectTestContext.Provider>
         </ChannelContext.Provider>
       </UserContext.Provider> */}
-      <ReducerCounterOne />
+      {/* <ReducerCounterOne /> */}
+      <ReducerCounterTwo/>
       
     </div>
   );
