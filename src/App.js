@@ -9,6 +9,7 @@ import IntervalCounter from './HookContainer/IntervalCounter';
 import DataFetching from './HookContainer/DataFetching';
 import DataFetchById from './HookContainer/DataFetchById';
 import ComponentC from './HookContainer/ComponentC';
+import ReducerCounterOne from './HookContainer/ReducerCounterOne';
 import logo from "./logo.svg";
 import "./App.css";
 
@@ -29,13 +30,14 @@ function App() {
 
       {/* <DataFetching /> */}
       {/* <DataFetchById /> */}
-      <UserContext.Provider value={'Abdullah al Mubin'}>
+      {/* <UserContext.Provider value={'Abdullah al Mubin'}>
         <ChannelContext.Provider value={'Channel name'}>
           <ObjectTestContext.Provider value={'testing..'}>
             <ComponentC />
           </ObjectTestContext.Provider>
         </ChannelContext.Provider>
-      </UserContext.Provider>
+      </UserContext.Provider> */}
+      <ReducerCounterOne />
       
     </div>
   );
