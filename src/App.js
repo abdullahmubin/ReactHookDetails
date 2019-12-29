@@ -13,6 +13,7 @@ import ReducerCounterOne from './HookContainer/ReducerCounterOne';
 import ReducerCounterTwo from './HookContainer/ReducerCounterTwo';
 import logo from "./logo.svg";
 import "./App.css";
+import ReducerCounterThree from "./HookContainer/ReducerCounterThree";
 
 export const UserContext = React.createContext();
 export const ChannelContext = React.createContext();
@@ -39,7 +40,8 @@ function App() {
         </ChannelContext.Provider>
       </UserContext.Provider> */}
       {/* <ReducerCounterOne /> */}
-      <ReducerCounterTwo/>
+      {/* <ReducerCounterTwo/> */}
+      <ReducerCounterThree />
       
     </div>
   );
