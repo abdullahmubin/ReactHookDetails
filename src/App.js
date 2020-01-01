@@ -17,7 +17,7 @@ import ReducerCounterThree from "./HookContainer/ReducerCounterThree";
 import ReducerContextA from "./HookContainer/ReducerContextA";
 import ReducerContextB from "./HookContainer/ReducerContextB";
 import ReducerContextC from "./HookContainer/ReducerContextC";
-
+import ReducerWithFetchData from "./HookContainer/ReducerWithFetchData";
 export const UserContext = React.createContext();
 export const ChannelContext = React.createContext();
 export const ObjectTestContext = React.createContext();
@@ -64,16 +64,16 @@ function App() {
       {/* <ReducerCounterTwo/> */}
       {/* <ReducerCounterThree /> */}
 
-      <CountContext.Provider
+      {/* <CountContext.Provider
         value={{ countState: count, countDispatch: dispatch }}
       >
         Count - {count}
         <ReducerContextA />
         <ReducerContextB />
         <ReducerContextC />
-      </CountContext.Provider>
+      </CountContext.Provider> */}
 
-      
+      <ReducerWithFetchData />
     </div>
   );
 }
