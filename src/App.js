@@ -18,6 +18,8 @@ import ReducerContextA from "./HookContainer/ReducerContextA";
 import ReducerContextB from "./HookContainer/ReducerContextB";
 import ReducerContextC from "./HookContainer/ReducerContextC";
 import ReducerWithFetchData from "./HookContainer/ReducerWithFetchData";
+import ParentComponent from './HookContainer/ParentComponent';
+
 export const UserContext = React.createContext();
 export const ChannelContext = React.createContext();
 export const ObjectTestContext = React.createContext();
@@ -73,7 +75,9 @@ function App() {
         <ReducerContextC />
       </CountContext.Provider> */}
 
-      <ReducerWithFetchData />
+      {/* <ReducerWithFetchData /> */}
+
+      <ParentComponent />
     </div>
   );
 }
